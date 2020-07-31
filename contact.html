@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<img src="image\logo.png" alt="logo" width="200" height="200">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<section>
+		<form method="get">
+		<h3>Please Contact Me</h3>	
+			<label for="fname">First name:</label>
+  			<input type="text" id="fname" name="fname"><br><br>
+  			<label for="lname">Last name:</label>
+  			<input type="text" id="lname" name="lname"><br><br>
+  			<label for="email">Email Address:</label>
+  			<input type="email" name="email" required><br><br>
+  		<h4>Personal Details</h4>
+  			<input type="radio" id="male" name="gender" value="male">
+  			<label for="male">Male</label><br>
+  			<input type="radio" id="female" name="gender" value="female" checked="checked">
+  			<label for="female">Female</label><br>  			
+  		<h4>Currently Studying</h4>
+		  	<input type="checkbox" name="study1" value="WebDev" checked="checked">
+  			<label for="study1"> Web Developer</label><br>
+  			
+  			<input type="checkbox" name="study2" value="JavaScript">
+  			<label for="study2"> JavaScript</label><br>
+    
+    		<input type="checkbox" name="study3" value="Python">
+  			<label for="study3"> Python</label><br><br>		
+  			
+  			<input type="submit" value="Submit">
+		</form>
+	</section>
+	<footer>
+		<p>Website by NF</p>
+	</footer>
+</body>
+</html>
